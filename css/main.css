@@ -1,0 +1,625 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+}
+
+h1{
+    font-family: Impact, "fantasy";
+}
+
+h2, h3, h4{
+    font-family: Georgia, serif;
+}
+
+/*Header*/
+
+.text-end{
+    display: inline-flex;
+}
+
+#welcome {
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
+
+header .active{
+    color: yellow;
+    text-decoration: none;
+}
+
+/*Footer*/
+footer .active{
+
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+/*index.php*/
+.bd-placeholder-img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 840px){
+    .bd-placeholder-img{
+        width: 150%;
+        height: 150%;
+    }
+}
+
+
+.news-image{
+    width: 250px;
+}
+
+.news{
+    margin-bottom: 20%;
+}
+
+@media screen and (max-width: 840px){
+    .news-image{
+        width: 100px;
+    }
+
+    .news{
+        margin-top: 0%;
+        width: 48%;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .family-news{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .news-title{
+        font-size: smaller;
+    }
+
+    .news-author{
+        font-size: smaller;
+    }
+
+    .news-info{
+        font-size: smaller;
+    }
+
+    .news-img{
+        margin-right: 2%;
+    }
+
+}
+
+.index-character-picture img,
+.index-games-picture img,
+.index-movies-picture img{
+    margin-left: .9%;
+    width: 18%;
+    height: 18%;
+}
+
+section a{
+    width: 100%;
+}
+
+.index-character-picture a:hover{
+    background-color: black;
+    color: white;
+}
+
+.index-games-picture a:hover{
+    background-color: black;
+    color: white;
+}
+
+.index-movies-picture a:hover{
+    background-color: black;
+    color: white;
+}
+
+.index-activity a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Contact form*/
+
+#contact {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*Login form*/
+
+#login {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.div {
+    margin-top: 2%;
+}
+
+/*Signup form*/
+
+#signup {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.middleWrong {
+    text-align: center;
+    color: #c0392b;
+}
+
+.middleRight {
+    text-align: center;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Games form*/
+#Games-container{
+    background-color: #EAEDED
+}
+
+#Games-banner>img{
+    width: 100%;
+}
+
+.Games-banner-text{
+    position: absolute;
+    margin-top: 10%;
+    left:6%;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#card-layout>h1{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.core-card {
+    margin: 1.5em;
+    padding: 1em;
+    border: 2px solid grey;
+    background-color: white;
+}
+
+.core-card>img {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.core-card>.btn{
+    display: block;
+    margin:0 auto;
+    width: 50%;
+    bottom: 1px;
+}
+
+.price-tag>p, .price-tag>s{
+    display: inline-block;
+}
+
+.price-tag>p{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.price-tag>s{
+    margin-left: 3%;
+    line-height: 35px;
+    color:grey;
+}
+
+.intro{
+    margin-top: 1em;
+    height: 150px;
+}
+
+@media screen and (max-width: 992px){
+    .core-card{
+        border:0;
+        border-bottom: 1px solid grey;
+        height: 100%;
+    }
+
+    .core-card>img{
+        float: left;
+        margin-right: 5%;
+        width: 30%;
+    }
+
+    .intro{
+        float: top;
+        height: 70%;
+    }
+}
+
+#thank {
+    display: none;
+    position: absolute;
+    border: 2px solid grey;
+    border-radius:25px;
+    left: 50%;
+    margin-top: -25%;
+    margin-left: -20%;
+    height: 50%;
+    width: 40%;
+    z-index: 11;
+    text-align: center;
+    padding-top: 8em;
+    background-color: white;
+}
+
+#thank>button{
+    margin-top: 2em;
+}
+
+#filter{
+    display: none;
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: #dddddd;
+    -moz-opacity: 0.8;
+    opacity: .8;
+}
+
+/*activity part*/
+
+#activity-form h2 {
+    text-align: center;
+    color: white;
+}
+
+#activity-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+#activity-dropdown{
+    width: 50%;
+}
+
+#activity-input{
+    width: 50%;
+    float: right;
+}
+
+#activity-button{
+    text-align: center;
+}
+
+#search{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 840px){
+    #activity-search-form{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    
+    #activity-dropdown{
+        width: 40%;
+    }
+    
+    #activity-input{
+        width: 30%;
+    }
+    
+    #activity-button{
+        width: 30%;
+    }
+    
+    #input-search-activity{
+        width: 100%;
+    }
+}
+
+#background-color-activity {
+    background-color: #8395a7;
+}
+
+#activity-name-input, #description-activity, #submit-activity {
+    padding: 0.5%;
+    margin: 1% 0;
+}
+
+#submit-activity {
+    color: white;
+    background-color: #576574;
+}
+
+#activity-search {
+    text-align: center;
+    margin: 1% 0;
+}
+
+#activity-search-input {
+    width: 60%;
+    padding: 0.5% 0;
+}
+
+#activity-comment {
+    background-color: #c8d6e5;
+}
+
+table{
+    margin: 2%;
+}
+.postActivity{
+    width: 20%;
+}
+
+.search-background{
+    background-color: #dff9fb;
+}
+
+/*
+ *  I have used colours from the following website:
+ *	https://flatuicolors.com/
+ *  Date Accessed: 15 November 2021
+ */
+
+/*end activity part*/
+
+
+/*the start of character page*/
+/* Container holding the image and the text */
+.character-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#img1 {
+    width: 100%;
+}
+
+#div1 {
+    width: 100%; 
+    display: table;
+}
+
+#row1 {
+    display: table-row;
+    padding-left: 10px;
+}
+
+#col {
+    display: table-cell;
+    min-width: 300px;
+}
+
+#char-banner {
+    width: 100%;
+}
+
+#img-char {
+    width: 100%;
+}
+
+.feature-char {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-char {
+    padding-left: 28px;
+}
+
+/* Centered text of charater page */
+.char-centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#char-header, #char-page {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#feature {
+    padding-left: 10px;
+}
+
+#img-char img {
+    height: 250px;
+    width: auto;
+}
+
+#char-img {
+    width: 100%;
+}
+
+#col {
+    float: left;
+    width: 20%;
+    padding: 1em;
+    height: 25em;
+}
+
+#char-page {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#char-header {
+    padding-left: 34px;
+}
+
+#activities_pictures{
+    border: 1px solid #ddd;
+    width:40%;
+}
+
+/*the end of character page*/
+
+
+/*
+    References of movie page:
+    1. How to make responsive page using display:none and div
+    URL: https://stackoverflow.com/questions/18890053/php-conditions-depending-on-window-width-media-queries
+    Date accessed: Dec 05, 2021
+
+    2. How to make two div align with the top
+    URL: https://blog.csdn.net/lsm135/article/details/80168408
+    Data accessed: Dec 05, 2021
+
+*/
+
+/*Style of movies page*/
+
+/*Laptop style(larger than 840px width)*/
+div#mobile-view{
+
+    display: none;
+
+}
+div#laptop-view{
+
+    display: unset;
+
+}
+#title_container{
+
+    height: 5%;
+    width: 20%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    margin-left: 7%;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    border: solid;
+
+}
+h1#movie_h1{
+
+    letter-spacing: 3px;
+
+}
+
+div.movie_container{
+
+    width: 18%;
+    height: 120%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+div.movie_container img{
+
+    width: 100%;
+    height: 50%;
+
+}
+div.movie_row{
+
+    width: 90%;
+    height: 100%;
+    margin-left: 8%;
+
+}
+
+h2.movie_h2{
+
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h3.movie_h3{
+
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+h4.movie_h4{
+
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+
+
+}
+
+/*Mobile style(smaller or equal to 840px width)*/
+@media screen and (max-width: 840px){
+
+    h1#movie_h1{
+
+        letter-spacing: 2px;
+
+    }
+    div#title_container{
+
+        margin-left: 25%;
+        width: 50%;
+        text-align: center;
+
+    }
+
+    div.movie_container{
+
+        width: 30%;
+        margin-left: 2%;
+
+    }
+
+    div#laptop-view{
+
+        display: none;
+
+    }
+
+    div#mobile-view{
+
+        display: unset;
+
+    }
+    
+}
+/*all of movies style end*/
+
